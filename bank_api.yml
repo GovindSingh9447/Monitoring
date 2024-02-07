@@ -73,7 +73,7 @@ data:
     spring.jpa.hibernate.ddl-auto=update
     spring.jpa.show-sql=true
     #----------------------------------------------------------------------------
-    spring.datasource.url = jdbc:postgresql://decimalcafkyc-rds-uat.cbojrqtvnjtt.ap-south-1.rds.amazonaws.com:5432/KOTAK_CA_PP
+    spring.datasource.url = jdbc:postgresql://decimalcafkyc-rds-uat.cbojrqtvnjtt.ap-south-1.rds.amazonaws.com:5433/KOTAK_CA_PP
     spring.datasource.username=decimal_cafkyc_uat
     spring.datasource.password=Decimal@321
     spring.jpa.properties.hibernate.default_schema = "bfsi"

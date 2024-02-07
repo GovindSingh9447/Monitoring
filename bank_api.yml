@@ -1,0 +1,295 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: kotak-pvt-bankapi
+  annotations:
+    alb.ingress.kubernetes.io/healthcheck-path: /kotak_pvt_bankapi
+  labels:
+    app: kotak-pvt-bankapi
+spec:
+  ports:
+    -  port: 8097
+       targetPort: 8097
+       protocol: TCP
+  selector:
+    app: kotak-pvt-bankapi
+---
+
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: kotak-pvt-bankapi
+data:
+  application.properties: |-
+    server.port=8097
+    server.servlet.context-path=/middleware-apis
+    spring.application.name=BANK-API
+    #*********Redis configuration********#
+    spring.redis.port=6379
+    spring.redis.host=kotak-preprod-elasticache.jqosxt.ng.0001.aps1.cache.amazonaws.com
+
+    #*********Vahana Library*************#
+    vps.api.designer-response-format=true
+    vps.api.read-time-out=60000
+    vps.api.connection-time-out=60000
+    vps.api.proxy-server-host=127.0.0.1
+    vps.api.proxy-server-port=8080
+    vps.api.jks-cert-path=path-to-cert
+    vps.api.jks-cert-pass=*****
+    vps.api.dbes-endpoint=http://dbes:9007/dbes/service/dbexecutor/v1/execute
+    vps.api.igw-endpoint=http://igw:9008/igw/executeOnlineProcess
+    vps.api.hub-endpoint=https://vahanahub-uat.vahanacloud.com/vahanahub/execution/executeService
+    vps.api.hub-secret=bbba4bd5-5b46-49a5-bfd6-33169ccc5355
+    vps.api.service-endpoint=http://router:9000/router/engine/v1/gatewayProcessor
+    vps.api.dms-endpoint=http://vahana-dms:9047/document-manager/
+    vps.api.dms-storage-id=n969641a-1870-49ce-aca6-ca7e0528p9e9
+    vps.api.logging-agent-url=http://logging-agent:9051/
+    vps.api.logging-agent-enabled=false
+
+
+
+    vps.api.otp-type=N
+    vps.api.otp-length=6
+    vps.api.otp-expiry-time=60
+    vps.api.otp-cache-type=R
+    #************Logging**************************#
+    logging.level.org.springframework=INFO
+    logging.level.com.decimaltech=INFO
+    logging.level.com.zaxxer=DEBUG
+    logging.level.root=ERROR
+    #***************Database ORM*********************************#
+    #***************Hikari Connection Pool***********************#
+    #spring.datasource.hikari.connectionTimeout=20000
+    #spring.datasource.hikari.maximumPoolSize=10
+    #spring.datasource.hikari.poolName=HikariPoolZZZ
+    #com.zaxxer.hikari.housekeeping.periodMs=10
+    #************************************************************#
+    #Actuators
+    management.endpoints.web.exposure.include=*
+    management.endpoint.health.group.custom.show-components=always
+    management.endpoint.health.group.custom.show-details=always
+    #--------------------------------------------------------------------------
+    spring.jpa.open-in-view=false
+    spring.jpa.hibernate.ddl-auto=update
+    spring.jpa.show-sql=true
+    #----------------------------------------------------------------------------
+    spring.datasource.url = jdbc:postgresql://decimalcafkyc-rds-uat.cbojrqtvnjtt.ap-south-1.rds.amazonaws.com:5432/KOTAK_CA_PP
+    spring.datasource.username=decimal_cafkyc_uat
+    spring.datasource.password=Decimal@321
+    spring.jpa.properties.hibernate.default_schema = "bfsi"
+    #spring.jpa.properties.hibernate.dialect = decimal.bfsicommonbackend.repository.MidPointPostgreSQLDialect
+
+
+    #----------------------------------------------------------------------------
+    eureka.client.service-url.defaultZone=http://localhost:8761/eureka
+    eureka.instance.prefer-ip-address=true
+    eureka.instance.lease-renewal-interval-in-seconds=2
+    eureka.instance.lease-expiration-duration-in-seconds=5
+    eureka.client.registry-fetch-interval-seconds=5
+    eureka.client.enabled=false
+    spring.cloud.compatibility-verifier.enabled=false
+    #-----------------------------------------------------------------------------
+    client.dbdefid=MINI_PROJECT-CUTGA6MBH0:MINI_PROJECT-BJRKLHTSPJ:FEDERAL_CA
+
+
+    #Rest Template Connection Pool
+    maxConnectionPerRoute=5
+    maxHttpConnections=10
+    readTimeOut=60000
+    connectionTimeOut=60000
+
+    #Aadhaar E-KYC Bio
+    #channelName=UVKYC
+    channelName=UVKYC
+    #channelId=UVKYC12
+    channelId=UVKYC12
+    #checksumKey=123456789124
+    checksumKey=123456789124
+
+
+    #Gen New Token
+    genNewToken.client.url=https://apigwuat.kotak.com:8443/auth/oauth/v2/token
+    genNewToken.client.mwfUrl=https://apigwuat.kotak.com:8443/k2/auth/oauth/v2/token
+
+    sms.tokenUrl:https://xrwv2l.api.infobip.com/auth/1/session
+    sms.client_url:https://xrwv2l.api.infobip.com/sms/2/text/advanced
+    sms.fraud.link=http://kotak.com/fraud
+
+
+    spring.main.allow-bean-definition-overriding=true
+    isHttpTracingEnabled=true
+    logging-agent-url=http://logging-agent:9051/
+    print.logs.on.console = N
+
+    #Aadhar Consent Api
+    Audio_path=https://sadigital.kotak.com/AadhaarAudios/
+    ApiGw.ipAddress=65.0.237.82
+
+    #VahanaService Connector Details
+    kotak_ca.appId=KOTAK_CA-269EW37XAL
+    kotak_ca.orgId=DECIMAL-CGT6BYPRBI
+    kotak_ca.clientSecret=dc257dce-e665-4443-ba2c-6923a1913c8d
+    kotak_diy.clientSecret=30c8465f-860d-403f-a8dc-845b92a4db9c
+    service.gatewayProcessorUrl=http://router:9000/router/engine/v1/gatewayProcessor
+    
+    #dmsurl
+    dmsurl = https://kotak-ca-decimal-uat.vahanacloud.com/document-manager/download/v1/getDocumentsUsingIds
+    
+    
+    cersai.Path = /kotak_ca_bankApi/kotak_ca_manual/cersai/
+    cersai.S3FolderName=/kotak_ca_bankApi/preprod/CKYC
+    cersai.S3bucket=kotak-docs
+    kotak_ca.s3.aws_access_key_id=AKIASBSCGSETZQYYCM33
+    kotak_ca.s3.aws_secret_access_key=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
+
+    pvt.imageDownlaodPAth=/kotak-pvt-bankapi/watermark/
+
+    #Kotak_ca_pvt
+    #kotak_url=http://kotak-ca-preprod.vahanacloud.com/middleware-apis/bfsi/upsertAttribute
+    kotak_url=http://kotak-ca-company:8098/middleware-apis/bfsi/upsertAttribute
+    kotak_url_findOne=http://kotak-ca-company:8098/middleware-apis/bfsi/fndOne
+    
+    default.page.number=1
+    default.page.size=30
+
+
+    #watermarkPath=/watermark/
+    #merged_image_doc.path=/signature/mergedoc.png
+    
+    watermarkPath=/kotak-pvt-bankapi/watermark/
+    merged_image_doc.path=/kotak-pvt-bankapi/signature/mergedoc/
+    pvt.SignImagePath=/kotak-pvt-bankapi/signature/
+    
+    diy.pending.url=https://kotak-ca-decimal-uat.vahanacloud.com/kotak-diy-ca/#/basic-details/bd1?sc=
+    #dmsurl
+    diy.kyc.url=https://kotak-ca-decimal-uat.vahanacloud.com/kotak-pvt-ltd/#/aus-basic?leadId=
+   
+    dmsurl = https://vahana-dms:9047/document-manager/download/v1/getDocumentsUsingIds
+    dms.storageid=n969641a-1870-49ce-aca6-ca7e0528p9e9
+    
+    #esign
+    esign_request_url=https://uat.signdesk.in/api/sandbox/signRequest
+    esign_application_id=kotakmahindrabanklimited_user_1_CA
+    esign_api_key=7b4e85b269d0a82b7ba50ecd7a971f77
+    
+    #Aof Pdf url
+    solepropv1.url=http://kotak-ca-company:8098/middleware-apis/SolePropV1
+    solepropv2.url=http://kotak-ca-company:8098/middleware-apis/SolePropV2
+    
+    
+    
+    leadId=PV04042304473724
+    dms.fetch.file.url=https://vahana-dms:9047/document-manager/download/v1/getDocumentsUsingMDOFilters
+    esign_sign_status_url=https://uat.signdesk.in/api/sandbox/getSignatureStatus
+    
+    esign_resend_url=https://uat.signdesk.in/api/sandbox/resendInvitation
+    
+    revoke_url=https://uat.signdesk.in/api/workflow/revokeDocumentFromApi
+    getDocketInfo_url=https://uat.signdesk.in/api/sandbox/getDocketInfo
+
+    revoke.userName=6b6f74616b6373
+    revoke.tokenUrl=https://xrwv2l.api.infobip.com/auth/1/session
+    revoke.client_url=https://xrwv2l.api.infobip.com/sms/2/text/advanced
+    revoke.password=4b6f74616b4031323324
+    revoke.serverIp=81819191
+    revoke.serverPort=8080
+    
+    #BCIF DEDUPE BYPASS
+    DedupeCheck=Y
+    filepath=/kotak-pvt-bankapi/signature/
+
+    PVT_HANDSHAKE_URL=https://apigwuat.kotak.com:8443/VKYC/KB0332
+    PVT_HANDSHAKE_client_secret=0c3d67b0995d476cbc80a2dc95af6bd2
+    PVT_HANDSHAKE_client_id=l7d2bbc26858ed4c149b19326c4adfe97d
+
+    PVT_DOWNLOAD_client_secret=88a14c8f1c1c409791045d537cd53c61
+    PVT_DOWNLOAD_client_id=l7efa3558b9eb44914a7fa3149401042f3
+    PVT_DOWNLOAD_URL=https://apigwuat.kotak.com:8443/owb/attachments/system/download/
+    
+    #################  ThreatMatrix #######################
+    Tmx_OrgId =350jyiwd
+    Tmx_ApiKey=hx3wpqcg3nytv8tz
+
+    esign_callback=https://kotak-ca-decimal-uat.vahanacloud.com/web/esignWEBHOOK
+    
+    ##### Aprec ################
+    apprec_url=http://kotak-ca-company:8098/middleware-apis/getAppRec
+    
+    kotak-logo-path=/kotak-pvt-bankapi/KotakLogo.jpg
+    credit-facility-docpath=/kotak-pvt-bankapi/CreditFacilityDeclaration.pdf
+    
+    #mdm config
+    mdm.errorUrl=https://kotak-ca-decimal-uat.vahanacloud.com/kotak/invalid?message=
+    mdm.baseUrl=https://kotak-ca-decimal-uat.vahanacloud.com/kotak-mdm/#/validate
+
+    #################  ThreatMatrix IN #######################
+    Tmx_IN_URL =https://h-api-in.online-metrix.net/api/session-query
+    #2e6c53z5
+    Tmx_IN_OrgId =c8wjmmaw
+    #5nyvoox3kkmesf6r
+    Tmx_IN_ApiKey=ecyjniy3fwdwaujg
+    Tmx_CALL_DC=true
+
+#-------------------------------------------------------------
+
+
+
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: kotak-pvt-bankapi
+  name: kotak-pvt-bankapi
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: kotak-pvt-bankapi
+  template:
+    metadata:
+      labels:
+        app: kotak-pvt-bankapi
+    spec:
+      containers:
+        - name: kotak-pvt-bankapi
+          #image: 712693083859.dkr.ecr.ap-south-1.amazonaws.com/bank_api:UAT_03_07
+          image: 712693083859.dkr.ecr.ap-south-1.amazonaws.com/bank_api:UAT_21_11_02-1.0.82
+          env:
+            - name: TZ
+              value: Asia/Kolkata
+          ports:
+            - containerPort: 8097
+          imagePullPolicy: Always
+          volumeMounts:
+            - mountPath: /usr/deployment/
+              name: kotak-pvt-bankapi-volume
+            - name: kotak-pvt-bankapi-pvc
+              mountPath: /kotak-pvt-bankapi/watermark/
+            - name: kotak-pvt-bankapi-pvc
+              mountPath: /kotak-pvt-bankapi/signature/
+      restartPolicy: Always
+      imagePullSecrets:
+        - name: awslogin
+
+      #   nodeSelector:
+      #     singleReplica: "true"
+      #   tolerations:
+      #     - effect: NoSchedule
+      #       key: key
+      #       operator: Equal
+      #       value: persistTool
+
+      volumes:
+        - configMap:
+            name: kotak-pvt-bankapi
+          name: kotak-pvt-bankapi-volume
+        - name: kotak-pvt-bankapi-pvc
+          persistentVolumeClaim:
+            claimName: kotak-pvt-bankapi-pvc
+      securityContext:
+        runAsUser: 0
+        fsGroup: 0
+
+---

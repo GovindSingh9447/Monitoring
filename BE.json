@@ -1,0 +1,2204 @@
+{
+  "BE_ID": "",
+  "NAME": "",
+  "IS_ETB": "",
+  "PRI_CONTACT": "",
+  "MOBILE": "",
+  "EMAIL": "",
+  "PHONE_NUM": "",
+  "CHANNEL": "",
+  "COMP_SEC": {
+    "NAME": "",
+    "REG_NO": ""
+  },
+  "BASIC_DETAILS": {
+    "BUSINESS_CONSTITUTION": {
+      "CODE": "",
+      "VALUE": "",
+      "OBJECT": {
+        "CODE": "",
+        "VALUE": "",
+        "VALUE_ID": "",
+        "PARENT_VALUE_ID": ""
+      },
+      "PARENT_CODE": ""
+    },
+    "COMPANY": {
+      "CIN": "",
+      "NEXT_CIN": "",
+      "LISTING_STATUS": "",
+      "IS_DIRECTOR_LIST_UPDATED": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      }
+    },
+    "LLP": {
+      "LLPIN": "",
+      "STATUS": "",
+      "IS_DP_LIST_UPDATED": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      }
+    },
+    "ORG_NAME": "",
+    "FORMATTED_ORG_NAME": "",
+    "LEGAL_NAME": "",
+    "EFILING_STATUS": "",
+    "DOI": "",
+    "PAID_UP_CAPITAL": "",
+    "CHARGES_SUM": "",
+    "AUTH_CAPITAL": "",
+    "BUSINESS_NATURE": {
+      "CODE": "",
+      "VALUE": "",
+      "OBJECT": {
+        "CODE": "",
+        "VALUE": "",
+        "VALUE_ID": "",
+        "PARENT_VALUE_ID": ""
+      },
+      "PARENT_CODE": ""
+    },
+    "OTHER_BUSINESS_NATURE": "",
+    "INDUSTRY_NATURE": {
+      "CODE": "",
+      "VALUE": "",
+      "OBJECT": {
+        "CODE": "",
+        "VALUE": "",
+        "VALUE_ID": "",
+        "PARENT_VALUE_ID": ""
+      },
+      "PARENT_CODE": ""
+    },
+    "OTHER_INDUSTRY_NATURE": "",
+    "ACTIVE_COMPIALNCE": "",
+    "CIRP_STATUS": "",
+    "LEI": {
+      "NO": "",
+      "STATUS": "",
+      "EXP": ""
+    },
+    "CLASSIFICATION": "",
+    "LAST_AGM_DT": "",
+    "LAST_FILING_DT": "",
+    "ADDR": {
+      "ADDR_SOURCE": "",
+      "ADDR_LINE_1": "",
+      "ADDR_LINE_2": "",
+      "ADDR_LINE_3": "",
+      "LANDMARK": "",
+      "DISP_CITY": "",
+      "DISP_STATE": "",
+      "CITY": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "STATE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "PINCODE": "",
+      "FULL_ADDR": "",
+      "CARE_OF": ""
+    }
+  },
+  "PAN": {
+    "PAN_NO": "",
+    "PAN_OCR_NO": "",
+    "PAN_OCR_NAME": "",
+    "TITLE": "",
+    "FIRST_NAME": "",
+    "MIDDLE_NAME": "",
+    "LAST_NAME": "",
+    "STATUS": "",
+    "PAN_SEED_STATUS": "",
+    "PAN_DISP_NAME": "",
+    "PAN_FULL_NAME": "",
+    "DOB": "",
+    "FATHER_NAME": "",
+    "NAME_MATCH_PAN_OCR_AND_PAN_NSDL": "",
+    "NAME_MATCH_MCA_AND_PAN_OCR": "",
+    "NAME_MATCH_MCA_AND_PAN_NSDL": "",
+    "API_DT": "",
+    "OCR_DT": "",
+    "IMAGES": [
+      
+    ],
+    "COUNT": 0
+  },
+  "REG_ADDR": {
+    "ADDR_SOURCE": {
+      "CODE": "",
+      "VALUE": "",
+      "OBJECT": {
+        "CODE": "",
+        "VALUE": "",
+        "VALUE_ID": "",
+        "PARENT_VALUE_ID": ""
+      },
+      "PARENT_CODE": ""
+    },
+    "ADDR_LINE_1": "",
+    "ADDR_LINE_2": "",
+    "ADDR_LINE_3": "",
+    "LANDMARK": "",
+    "DISP_CITY": "",
+    "DISP_STATE": "",
+    "CITY": {
+      "CODE": "",
+      "VALUE": "",
+      "OBJECT": {
+        "CODE": "",
+        "VALUE": "",
+        "VALUE_ID": "",
+        "PARENT_VALUE_ID": ""
+      },
+      "PARENT_CODE": ""
+    },
+    "STATE": {
+      "CODE": "",
+      "VALUE": "",
+      "OBJECT": {
+        "CODE": "",
+        "VALUE": "",
+        "VALUE_ID": "",
+        "PARENT_VALUE_ID": ""
+      },
+      "PARENT_CODE": ""
+    },
+    "PINCODE": "",
+    "FULL_ADDR": "",
+    "CARE_OF": "",
+    "IMAGES": [
+      
+    ],
+    "COUNT": 0,
+    "CPV": {
+      "STATUS": {
+        "PRIMARY_INFO": "",
+        "ADDR_FIELDS": "",
+        "PROFILE_BACKGROUND": "",
+        "KYC_INFO": "",
+        "FINAL_COMMENT": "",
+        "OFFICE_USE": ""
+      },
+      "CPV_DT": "",
+      "CONTACT_NAME": "",
+      "PHONE_NUM": "",
+      "BOARD_PHOTO": {
+        "IMAGES": [
+          
+        ],
+        "COUNT": 0
+      },
+      "INVOICE_IMAGES": {
+        "IMAGES": [
+          
+        ],
+        "COUNT": 0
+      },
+      "CONTACT_PERSON": {
+        "IMAGES": [
+          
+        ],
+        "COUNT": 0
+      },
+      "PROXIMITY": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "BUSINESS": {
+        "IMAGES": [
+          
+        ],
+        "COUNT": 0
+      },
+      "CPV_FOR": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "ADDR": {
+        "LOCALITY": "",
+        "ADDR_LINE_1": "",
+        "ADDR_LINE_2": "",
+        "ADDR_LINE_3": "",
+        "LANDMARK": "",
+        "DISP_CITY": "",
+        "DISP_STATE": "",
+        "CITY": {
+          "CODE": "",
+          "VALUE": "",
+          "OBJECT": {
+            "CODE": "",
+            "VALUE": "",
+            "VALUE_ID": "",
+            "PARENT_VALUE_ID": ""
+          },
+          "PARENT_CODE": ""
+        },
+        "STATE": {
+          "CODE": "",
+          "VALUE": "",
+          "OBJECT": {
+            "CODE": "",
+            "VALUE": "",
+            "VALUE_ID": "",
+            "PARENT_VALUE_ID": ""
+          },
+          "PARENT_CODE": ""
+        },
+        "PINCODE": "",
+        "FULL_ADDR": "",
+        "CARE_OF": ""
+      },
+      "GET_TAG_ADDR": {
+        "LAT": 0.0,
+        "LONG": 0.0,
+        "ADDR": ""
+      },
+      "DOI": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "BUSINESS_ACTIVITY": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "OTHER_BUSINESS_ACTIVITY": "",
+      "INDUSTRY_NATURE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "OTHER_INDUSTRY_NATURE": "",
+      "TXN_NATURES": [
+        {
+          "CODE": "",
+          "VALUE": "",
+          "OBJECT": {
+            "CODE": "",
+            "VALUE": "",
+            "VALUE_ID": "",
+            "PARENT_VALUE_ID": ""
+          },
+          "PARENT_CODE": ""
+        }
+      ],
+      "LAST_YEAR_TURNOVER": "",
+      "EXPECTED_TURNOVER": "",
+      "CUST_EXPERIENCE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "IS_ADDR_TRACABLE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "OFFICE_SIZE": "",
+      "ACCOMODATION_NATURE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "SAME_BUSINESS_NEAR": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "SAME_BUSINESS_NAME": "",
+      "REASON_FOR_BUSINESS_ALONE": "",
+      "BUSINESS_VINTAGE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "MUL_ENTITIES_OPR": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "SINGLE_OWNER_ENTITIES": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "EXISTING_BNKR": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "EXISTING_BNKR_VINTAGE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "ANOTHER_BUSINESS_OWNED": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      }, 
+      "ANOTHER_BUSINESS_LINE": "",
+      "BUSINESS_PROOF": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "BUSINESS_PROOF_NA_RSN": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "IP_TYPE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "IP_FROM": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "HOARDING": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "OTHER_HOARDING": "",
+      "BUILDING_TYPE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "EMP_COUNT": "0",
+      "MACHINERY": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "OTHER_MACHINERY": "",
+      "RECOMENDATION": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "COMMENTS": "",
+      "PREV_VISIT_COMMENTS": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "EMP_ID": "",
+      "EMP_NAME": "",
+      "IS_ACTIVITY_SEEN": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "ACTIVITY_SEEN_REMARKS": "",
+      "STOCKS_SEEN": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "STOCK_SEEN_REMARKS": "",
+      "BUSINESS_OFFICE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "BUSINESS_OFFICE_COMMENT": "",
+      "SCORE": "",
+      "DECLARATIONS": {
+        "RM_DECLARATION": {
+          "CONSENT_ID": "",
+          "VALUE": {
+            "CODE": "",
+            "VALUE": "",
+            "OBJECT": {
+              "CODE": "",
+              "VALUE": "",
+              "VALUE_ID": "",
+              "PARENT_VALUE_ID": ""
+            },
+            "PARENT_CODE": ""
+          },
+          "RECORD_ID": ""
+        }
+      }
+    }
+  },
+  "HO_ADDR": {
+    "ADDR_TYPE": {
+      "CODE": "",
+      "VALUE": "",
+      "OBJECT": {
+        "CODE": "",
+        "VALUE": "",
+        "VALUE_ID": "",
+        "PARENT_VALUE_ID": ""
+      },
+      "PARENT_CODE": ""
+    },
+    "ADDR_PROOF_DETAILS": {
+      "LEI": {
+        "NO": "",
+        "STATUS": "",
+        "EXP": ""
+      },
+      "PHONE_NUM": "",
+      "MOBILE": "",
+      "EMAIL": ""
+    },
+    "ADDR_SOURCE": {
+      "CODE": "",
+      "VALUE": "",
+      "OBJECT": {
+        "CODE": "",
+        "VALUE": "",
+        "VALUE_ID": "",
+        "PARENT_VALUE_ID": ""
+      },
+      "PARENT_CODE": ""
+    },
+    "DOC_NO": "",
+    "ADDR_LINE_1": "",
+    "ADDR_LINE_2": "",
+    "ADDR_LINE_3": "",
+    "LANDMARK": "",
+    "DISP_CITY": "",
+    "DISP_STATE": "",
+    "CITY": {
+      "CODE": "",
+      "VALUE": "",
+      "OBJECT": {
+        "CODE": "",
+        "VALUE": "",
+        "VALUE_ID": "",
+        "PARENT_VALUE_ID": ""
+      },
+      "PARENT_CODE": ""
+    },
+    "STATE": {
+      "CODE": "",
+      "VALUE": "",
+      "OBJECT": {
+        "CODE": "",
+        "VALUE": "",
+        "VALUE_ID": "",
+        "PARENT_VALUE_ID": ""
+      },
+      "PARENT_CODE": ""
+    },
+    "PINCODE": "",
+    "FULL_ADDR": "",
+    "CARE_OF": "",
+    "IMAGES": [
+      
+    ],
+    "COUNT": 0,
+    "CPV": {
+      "STATUS": {
+        "PRIMARY_INFO": "",
+        "ADDR_FIELDS": "",
+        "PROFILE_BACKGROUND": "",
+        "KYC_INFO": "",
+        "FINAL_COMMENT": "",
+        "OFFICE_USE": ""
+      },
+      "CPV_DT": "",
+      "CONTACT_NAME": "",
+      "PHONE_NUM": "",
+      "BOARD_IMAES": {
+        "IMAGES": [
+          
+        ],
+        "COUNT": 0
+      },
+      "INVOICE_IMAGES": {
+        "IMAGES": [
+          
+        ],
+        "COUNT": 0
+      },
+      "CONTACT_PERSON": {
+        "IMAGES": [
+          
+        ],
+        "COUNT": 0
+      },
+      "PROXIMITY": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "BUSINESS": {
+        "IMAGES": [
+          
+        ],
+        "COUNT": 0
+      },
+      "CPV_FOR": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "ADDR": {
+        "LOCALITY": "",
+        "ADDR_LINE_1": "",
+        "ADDR_LINE_2": "",
+        "ADDR_LINE_3": "",
+        "LANDMARK": "",
+        "DISP_CITY": "",
+        "DISP_STATE": "",
+        "CITY": {
+          "CODE": "",
+          "VALUE": "",
+          "OBJECT": {
+            "CODE": "",
+            "VALUE": "",
+            "VALUE_ID": "",
+            "PARENT_VALUE_ID": ""
+          },
+          "PARENT_CODE": ""
+        },
+        "STATE": {
+          "CODE": "",
+          "VALUE": "",
+          "OBJECT": {
+            "CODE": "",
+            "VALUE": "",
+            "VALUE_ID": "",
+            "PARENT_VALUE_ID": ""
+          },
+          "PARENT_CODE": ""
+        },
+        "PINCODE": "",
+        "FULL_ADDR": "",
+        "CARE_OF": ""
+      },
+      "GET_TAG_ADDR": {
+        "LAT": 0.0,
+        "LONG": 0.0,
+        "ADDR": ""
+      },
+      "DOI": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "BUSINESS_ACTIVITY": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "OTHER_BUSINESS_ACTIVITY": "",
+      "INDUSTRY_NATURE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "OTHER_INDUSTRY_NATURE": "",
+      "TXN_NATURES": [
+        {
+          "CODE": "",
+          "VALUE": "",
+          "OBJECT": {
+            "CODE": "",
+            "VALUE": "",
+            "VALUE_ID": "",
+            "PARENT_VALUE_ID": ""
+          },
+          "PARENT_CODE": ""
+        }
+      ],
+      "LAST_YEAR_TURNOVER": "",
+      "EXPECTED_TURNOVER": "",
+      "CUST_EXPERIENCE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "IS_ADDR_TRACABLE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "OFFICE_SIZE": "",
+      "ACCOMODATION_NATURE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "SAME_BUSINESS_NEAR": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "SAME_BUSINESS_NAME": "",
+      "REASON_FOR_BUSINESS_ALONE": "",
+      "BUSINESS_VINTAGE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "MUL_ENTITIES_OPR": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "SINGLE_OWNER_ENTITIES": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "EXISTING_BNKR": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "EXISTING_BNKR_VINTAGE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "ANOTHER_BUSINESS_OWNED": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "ANOTHER_BUSINESS_LINE":"",
+      "BUSINESS_PROOF": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "BUSINESS_PROOF_NA_RSN": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "IP_TYPE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "IP_FROM": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "HOARDING": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "OTHER_HOARDING": "",
+      "BUILDING_TYPE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "EMP_COUNT": "0",
+      "MACHINERY": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "OTHER_MACHINERY": "",
+      "RECOMENDATION": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "COMMENTS": "",
+      "PREV_VISIT_COMMENTS": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "EMP_ID": "",
+      "EMP_NAME": "",
+      "IS_ACTIVITY_SEEN": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "ACTIVITY_SEEN_REMARKS": "",
+      "STOCKS_SEEN": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "STOCK_SEEN_REMARKS": "",
+      "BUSINESS_OFFICE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "BUSINESS_OFFICE_COMMENT": "",
+      "SCORE": "",
+      "DECLARATIONS": {
+        "RM_DECLARATION": {
+          "CONSENT_ID": "",
+          "VALUE": {
+            "CODE": "",
+            "VALUE": "",
+            "OBJECT": {
+              "CODE": "",
+              "VALUE": "",
+              "VALUE_ID": "",
+              "PARENT_VALUE_ID": ""
+            },
+            "PARENT_CODE": ""
+          },
+          "RECORD_ID": ""
+        }
+      }
+    }
+  },
+  "COMM_ADDR": {
+    "ADDR_TYPE": {
+      "CODE": "",
+      "VALUE": "",
+      "OBJECT": {
+        "CODE": "",
+        "VALUE": "",
+        "VALUE_ID": "",
+        "PARENT_VALUE_ID": ""
+      },
+      "PARENT_CODE": ""
+    },
+    "ADDR_PROOF_DETAILS": {
+      "LEI": {
+        "NO": "",
+        "STATUS": "",
+        "EXP": ""
+      },
+      "PHONE_NUM": "",
+      "MOBILE": "",
+      "EMAIL": ""
+    },
+    "ADDR_SOURCE": {
+      "CODE": "",
+      "VALUE": "",
+      "OBJECT": {
+        "CODE": "",
+        "VALUE": "",
+        "VALUE_ID": "",
+        "PARENT_VALUE_ID": ""
+      },
+      "PARENT_CODE": ""
+    },
+    "DOC_NO": "",
+    "ADDR_LINE_1": "",
+    "ADDR_LINE_2": "",
+    "ADDR_LINE_3": "",
+    "LANDMARK": "",
+    "DISP_CITY": "",
+    "DISP_STATE": "",
+    "CITY": {
+      "CODE": "",
+      "VALUE": ""
+    },
+    "STATE": {
+      "CODE": "",
+      "VALUE": ""
+    },
+    "PINCODE": "",
+    "FULL_ADDR": "",
+    "CARE_OF": "",
+    "IMAGES": [
+      
+    ],
+    "COUNT": 0,
+    "CPV": {
+      "STATUS": {
+        "PRIMARY_INFO": "",
+        "ADDR_FIELDS": "",
+        "PROFILE_BACKGROUND": "",
+        "KYC_INFO": "",
+        "FINAL_COMMENT": "",
+        "OFFICE_USE": ""
+      },
+      "CPV_DT": "",
+      "CONTACT_NAME": "",
+      "PHONE_NUM": "",
+      "BOARD_IMAES": {
+        "IMAGES": [
+          
+        ],
+        "COUNT": 0
+      },
+      "INVOICE_IMAGES": {
+        "IMAGES": [
+          
+        ],
+        "COUNT": 0
+      },
+      "CONTACT_PERSON": {
+        "IMAGES": [
+          
+        ],
+        "COUNT": 0
+      },
+      "PROXIMITY": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "BUSINESS": {
+        "IMAGES": [
+          
+        ],
+        "COUNT": 0
+      },
+      "CPV_FOR": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "ADDR": {
+        "LOCALITY": "",
+        "ADDR_LINE_1": "",
+        "ADDR_LINE_2": "",
+        "ADDR_LINE_3": "",
+        "LANDMARK": "",
+        "DISP_CITY": "",
+        "DISP_STATE": "",
+        "CITY": {
+          "CODE": "",
+          "VALUE": "",
+          "OBJECT": {
+            "CODE": "",
+            "VALUE": "",
+            "VALUE_ID": "",
+            "PARENT_VALUE_ID": ""
+          },
+          "PARENT_CODE": ""
+        },
+        "STATE": {
+          "CODE": "",
+          "VALUE": "",
+          "OBJECT": {
+            "CODE": "",
+            "VALUE": "",
+            "VALUE_ID": "",
+            "PARENT_VALUE_ID": ""
+          },
+          "PARENT_CODE": ""
+        },
+        "PINCODE": "",
+        "FULL_ADDR": "",
+        "CARE_OF": ""
+      },
+      "GET_TAG_ADDR": {
+        "LAT": 0.0,
+        "LONG": 0.0,
+        "ADDR": ""
+      },
+      "DOI": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "BUSINESS_ACTIVITY": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "OTHER_BUSINESS_ACTIVITY": "",
+      "INDUSTRY_NATURE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "OTHER_INDUSTRY_NATURE": "",
+      "TXN_NATURES": [
+        {
+          "CODE": "",
+          "VALUE": "",
+          "OBJECT": {
+            "CODE": "",
+            "VALUE": "",
+            "VALUE_ID": "",
+            "PARENT_VALUE_ID": ""
+          },
+          "PARENT_CODE": ""
+        }
+      ],
+      "LAST_YEAR_TURNOVER": "",
+      "EXPECTED_TURNOVER": "",
+      "CUST_EXPERIENCE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "IS_ADDR_TRACABLE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "OFFICE_SIZE": "",
+      "ACCOMODATION_NATURE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "SAME_BUSINESS_NEAR": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "SAME_BUSINESS_NAME": "",
+      "REASON_FOR_BUSINESS_ALONE": "",
+      "BUSINESS_VINTAGE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "MUL_ENTITIES_OPR": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "SINGLE_OWNER_ENTITIES": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "EXISTING_BNKR": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "EXISTING_BNKR_VINTAGE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "ANOTHER_BUSINESS_OWNED": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "ANOTHER_BUSINESS_LINE": "",
+      "BUSINESS_PROOF": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "BUSINESS_PROOF_NA_RSN": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "IP_TYPE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "IP_FROM": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "HOARDING": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "OTHER_HOARDING": "",
+      "BUILDING_TYPE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "EMP_COUNT": "0",
+      "MACHINERY": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "OTHER_MACHINERY": "",
+      "RECOMENDATION": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "COMMENTS": "",
+      "PREV_VISIT_COMMENTS": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "EMP_ID": "",
+      "EMP_NAME": "",
+      "IS_ACTIVITY_SEEN": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "ACTIVITY_SEEN_REMARKS": "",
+      "STOCKS_SEEN": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "STOCK_SEEN_REMARKS": "",
+      "BUSINESS_OFFICE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "BUSINESS_OFFICE_COMMENT": "",
+      "SCORE": "",
+      "DECLARATIONS": {
+        "RM_DECLARATION": {
+          "CONSENT_ID": "",
+          "VALUE": {
+            "CODE": "",
+            "VALUE": "",
+            "OBJECT": {
+              "CODE": "",
+              "VALUE": "",
+              "VALUE_ID": "",
+              "PARENT_VALUE_ID": ""
+            },
+            "PARENT_CODE": ""
+          },
+          "RECORD_ID": ""
+        }
+      }
+    }
+  },
+  "INCOME": {
+    "TURNOVER": ""
+  },
+  "ALL_GST": [
+    
+  ],
+  "GST_DETAILS": {
+    "SKIP_GST": {
+      "CODE": "",
+      "VALUE": "",
+      "OBJECT": {
+        "CODE": "",
+        "VALUE": "",
+        "VALUE_ID": "",
+        "PARENT_VALUE_ID": ""
+      },
+      "PARENT_CODE": ""
+    },
+    "GSTIN": {
+      "CODE": "",
+      "VALUE": "",
+      "OBJECT": {
+        "CODE": "",
+        "VALUE": "",
+        "VALUE_ID": "",
+        "PARENT_VALUE_ID": ""
+      },
+      "PARENT_CODE": ""
+    },
+    "TRADE_NAME": "",
+    "LEGAL_NAME": "",
+    "GST_REG_DT": "",
+    "CNTR_JURY": {
+      "CODE": "",
+      "VALUE": ""
+    },
+    "STATE_JURY": {
+      "CODE": "",
+      "VALUE": ""
+    },
+    "CANCEL_DT": "",
+    "LAST_UPDATED_DT": "",
+    "TAX_PAYER_TYP": "",
+    "BUSINESS_CONSTITUTION": "",
+    "STATUS": "",
+    "APP_CANCEL_REQ_FILED": "",
+    "ADDR": {
+      "ADDR_SOURCE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "ADDR_LINE_1": "",
+      "ADDR_LINE_2": "",
+      "ADDR_LINE_3": "",
+      "LANDMARK": "",
+      "DISP_CITY": "",
+      "DISP_STATE": "",
+      "CITY": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "STATE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "PINCODE": "",
+      "FULL_ADDR": "",
+      "CARE_OF": ""
+    },
+    "IMAGES": [
+      
+    ],
+    "COUNT": 0
+  },
+  "SHOP_EST_DETAILS": {
+    "REG_NO": "",
+    "AREA": {
+      "CODE": "",
+      "VALUE": "",
+      "OBJECT": {
+        "CODE": "",
+        "VALUE": "",
+        "VALUE_ID": "",
+        "PARENT_VALUE_ID": ""
+      },
+      "PARENT_CODE": ""
+    },
+    "OTHER_AREA": "",
+    "OWNER_NAME": "",
+    "VALID_FROM": "",
+    "VALID_TO": "",
+    "COMPANY_NAME": "",
+    "STATUS": "",
+    "ADDR": {
+      "ADDR_SOURCE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "ADDR_LINE_1": "",
+      "ADDR_LINE_2": "",
+      "ADDR_LINE_3": "",
+      "LANDMARK": "",
+      "DISP_CITY": "",
+      "DISP_STATE": "",
+      "CITY": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "STATE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "PINCODE": "",
+      "FULL_ADDR": "",
+      "CARE_OF": ""
+    },
+    "IMAGES": [
+      
+    ],
+    "COUNT": 0
+  },
+  "FSSAI_DETAILS": {
+    "LIC_NO": "",
+    "LIC_TYPE": "",
+    "FIRM_NAME": "",
+    "STATUS": "",
+    "ADDR": {
+      "ADDR_SOURCE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "ADDR_LINE_1": "",
+      "ADDR_LINE_2": "",
+      "ADDR_LINE_3": "",
+      "LANDMARK": "",
+      "DISP_CITY": "",
+      "DISP_STATE": "",
+      "CITY": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "STATE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "PINCODE": "",
+      "FULL_ADDR": "",
+      "CARE_OF": ""
+    },
+    "IMAGES": [
+      
+    ],
+    "COUNT": 0
+  },
+  "IEC_DETAILS": {
+    "IE_CODE": "",
+    "STATUS": "",
+    "IEC_ALLOTMENT_DT": "",
+    "COMPANY_NAME": "",
+    "ADDR": {
+      "ADDR_SOURCE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "ADDR_LINE_1": "",
+      "ADDR_LINE_2": "",
+      "ADDR_LINE_3": "",
+      "LANDMARK": "",
+      "DISP_CITY": "",
+      "DISP_STATE": "",
+      "CITY": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "STATE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "PINCODE": "",
+      "FULL_ADDR": "",
+      "CARE_OF": ""
+    },
+    "IMAGES": [
+      
+    ],
+    "COUNT": 0
+  },
+  "UDYAM_AADHAAR_DETAILS": {
+    "REG_NO": "",
+    "REG_DT": "",
+    "COMPANY_NAME": "",
+    "ADDR": {
+      "ADDR_SOURCE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "ADDR_LINE_1": "",
+      "ADDR_LINE_2": "",
+      "ADDR_LINE_3": "",
+      "LANDMARK": "",
+      "DISP_CITY": "",
+      "DISP_STATE": "",
+      "CITY": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "STATE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "PINCODE": "",
+      "FULL_ADDR": "",
+      "CARE_OF": ""
+    },
+    "IMAGES": [
+      
+    ],
+    "COUNT": 0
+  },
+  "CR_FACILITY": {
+    "IS_OPTED": {
+      "CODE": "",
+      "VALUE": "",
+      "OBJECT": {
+        "CODE": "",
+        "VALUE": "",
+        "VALUE_ID": "",
+        "PARENT_VALUE_ID": ""
+      },
+      "PARENT_CODE": ""
+    },
+    "OTHER_BANK_CCOD": "",
+    "SELF_BANK_CCOD": "",
+    "SELF_BANK_EXPOSURE": "",
+    "OTHER_BANK_EXPOSURE": "",
+    "TOTAL_BANK_EXPOSURE": "",
+    "FACILITIES": [
+      
+    ]
+  },
+  "NCIF": {
+    "RES_CODE": "",
+    "RES_MSG": "",
+    "RETURN_VAL": "",
+    "REF_NO": ""
+  },
+  "BCIF": "",
+  "DOCUMENTS": {
+    "MOA": {
+      "IMAGES": [
+        
+      ],
+      "COUNT": 0,
+      "CAPTURED_IMAGES": [
+        
+      ],
+      "CAPTURED_COUNT": 0
+    },
+    "AOA": {
+      "IMAGES": [
+        
+      ],
+      "COUNT": 0,
+      "CAPTURED_IMAGES": [
+        
+      ],
+      "CAPTURED_COUNT": 0
+    },
+    "INDUSTRY_DOC": {
+      "IMAGES": [
+        
+      ],
+      "COUNT": 0
+    },
+    "COI": {
+      "IMAGES": [
+        
+      ],
+      "COUNT": 0
+    },
+    "LLP_DEED": {
+      "IMAGES": [
+        
+      ],
+      "COUNT": 0,
+      "CAPTURED_IMAGES": [
+        
+      ],
+      "CAPTURED_COUNT": 0
+    },
+    "FATCA": {
+      "IMAGES": [
+        
+      ],
+      "COUNT": 0
+    },
+    "CREDIT_FACILITY": {
+      "IMAGES": [
+        
+      ],
+      "COUNT": 0
+    },
+    "FORM32": {
+      "IMAGES": [
+        
+      ],
+      "COUNT": 0
+    },
+    "CRILIC": {
+      "IMAGES": [
+        
+      ],
+      "COUNT": 0
+    },
+    "DIR12": {
+      "IMAGES": [
+        
+      ],
+      "COUNT": 0
+    },
+    "ROC": {
+      "IMAGES": [
+        
+      ],
+      "COUNT": 0
+    },
+    "GST": {
+      "IMAGES": [
+        
+      ],
+      "COUNT": 0
+    }
+  },
+  "DECLARATIONS": {
+    "CRILIC": {
+      "CONSENT_ID": "",
+      "VALUE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "RECORD_ID": ""
+    },
+    "IS_US_SPECIFIED_PERSON": {
+      "CONSENT_ID": "",
+      "VALUE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "RECORD_ID": ""
+    },
+    "IS_ENTITY_FORMED_OUTSODE_INDIA": {
+      "CONSENT_ID": "",
+      "VALUE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "RECORD_ID": ""
+    },
+    "IS_GREEN_CARD_HOLDER": {
+      "CONSENT_ID": "",
+      "VALUE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "RECORD_ID": ""
+    },
+    "GSTIN": {
+      "CONSENT_ID": "",
+      "VALUE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "RECORD_ID": ""
+    },
+    "CREDIT_FACILITY": {
+      "CONSENT_ID": "",
+      "VALUE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "RECORD_ID": ""
+    },
+    "NAME": {
+      "CONSENT_ID": "",
+      "VALUE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "RECORD_ID": ""
+    },
+    "VERNACULAR": {
+      "CONSENT_ID": "",
+      "VALUE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "RECORD_ID": ""
+    },
+    "FETCH_BUSINESS_DETAILS": {
+      "CONSENT_ID": "",
+      "VALUE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "RECORD_ID": ""
+    },
+    "DIGITALLY_VERIFY_DETAILS": {
+      "CONSENT_ID": "",
+      "VALUE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "RECORD_ID": ""
+    },
+    "ACC_OPEN_AUTHORITY": {
+      "CONSENT_ID": "",
+      "VALUE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "RECORD_ID": ""
+    }
+  },
+  "WORK_VARS": {
+    
+  }
+} 
+

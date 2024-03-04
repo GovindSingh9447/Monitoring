@@ -1,0 +1,978 @@
+{
+	"SH_ID": "",
+	"CHANNEL": "",
+	"IS_ETB": "",
+	"BASIC_INFO": {
+		"TITLE": {
+			"CODE": "",
+			"VALUE": "",
+			"OBJECT": {
+				"CODE": "",
+				"VALUE": "",
+				"VALUE_ID": "",
+				"PARENT_VALUE_ID": ""
+			},
+			"PARENT_CODE": ""
+		},
+		"FIRST_NAME": "",
+		"MIDDLE_NAME": "",
+		"LAST_NAME": "",
+		"FULL_NAME": "",
+		"SALUTATION": "",
+		"MOTHER_NAME": "",
+		"FATHER_NAME": "",
+		"MARITAL_STATUS": {
+			"CODE": "",
+			"VALUE": "",
+			"OBJECT": {
+				"code": "",
+				"value": "",
+				"VALUE_ID": "",
+				"sequence": "",
+				"PARENT_VALUE_ID": ""
+			},
+			"PARENT_CODE": ""
+		},
+		"SPOUSE_NAME": "",
+		"MAIDEN_NAME": "",
+		"MOTHER_MAIDEN_NAME": "",
+		"PREFERRED_LANGUAGE": {
+			"CODE": "",
+			"VALUE": "",
+			"OBJECT": {
+				"CODE": "",
+				"VALUE": "",
+				"VALUE_ID": "",
+				"PARENT_VALUE_ID": ""
+			},
+			"PARENT_CODE": ""
+		},
+		"DOB": "",
+		"CASTE": "",
+		"RELIGION": "",
+		"PRI_MOBILE": "",
+		"SEC_MOBILE": "",
+		"EMAIL": "",
+		"GENDER": {
+			"CODE": "",
+			"VALUE": "",
+			"OBJECT": {
+				"CODE": "",
+				"VALUE": "",
+				"VALUE_ID": "",
+				"PARENT_VALUE_ID": ""
+			},
+			"PARENT_CODE": ""
+		},
+		"NATIONALITY": {
+			"CODE": "",
+			"VALUE": "",
+			"OBJECT": {
+				"CODE": "",
+				"VALUE": "",
+				"VALUE_ID": "",
+				"PARENT_VALUE_ID": ""
+			},
+			"PARENT_CODE": ""
+		},
+		"DSC_STATUS": "",
+		"DSC_EXP_DT": "",
+		"COMP_NAME": "",
+		"CATEGORY": {
+			"CODE": "",
+			"VALUE": "",
+			"OBJECT": {
+				"CODE": "",
+				"VALUE": "",
+				"VALUE_ID": "",
+				"PARENT_VALUE_ID": ""
+			},
+			"PARENT_CODE": ""
+		},
+		"RESI_STATUS": {
+			"CODE": "",
+			"VALUE": "",
+			"OBJECT": {
+				"CODE": "",
+				"VALUE": "",
+				"VALUE_ID": "",
+				"PARENT_VALUE_ID": ""
+			},
+			"PARENT_CODE": ""
+		},
+		"IS_PEP": {
+			"CODE": "",
+			"VALUE": "",
+			"OBJECT": {
+				"CODE": "",
+				"VALUE": "",
+				"VALUE_ID": "",
+				"PARENT_VALUE_ID": ""
+			},
+			"PARENT_CODE": ""
+		}
+	},
+	"ROLE": {
+		"IS_BO": {
+			"CODE": "",
+			"VALUE": "",
+			"OBJECT": {
+				"CODE": "",
+				"VALUE": "",
+				"VALUE_ID": "",
+				"PARENT_VALUE_ID": ""
+			},
+			"PARENT_CODE": ""
+		},
+		"IS_CP": {
+			"CODE": "",
+			"VALUE": "",
+			"OBJECT": {
+				"CODE": "",
+				"VALUE": "",
+				"VALUE_ID": "",
+				"PARENT_VALUE_ID": ""
+			},
+			"PARENT_CODE": ""
+		},
+		"IS_AUS_OPR": {
+			"CODE": "",
+			"VALUE": "",
+			"OBJECT": {
+				"CODE": "",
+				"VALUE": "",
+				"VALUE_ID": "",
+				"PARENT_VALUE_ID": ""
+			},
+			"PARENT_CODE": ""
+		},
+		"IS_AUS_OPN": {
+			"CODE": "",
+			"VALUE": "",
+			"OBJECT": {
+				"CODE": "",
+				"VALUE": "",
+				"VALUE_ID": "",
+				"PARENT_VALUE_ID": ""
+			},
+			"PARENT_CODE": ""
+		},
+		"IS_DIRECTOR": {
+			"CODE": "",
+			"VALUE": "",
+			"OBJECT": {
+				"CODE": "",
+				"VALUE": "",
+				"VALUE_ID": "",
+				"PARENT_VALUE_ID": ""
+			},
+			"PARENT_CODE": ""
+		},
+		"IS_DP": {
+			"CODE": "",
+			"VALUE": "",
+			"OBJECT": {
+				"CODE": "",
+				"VALUE": "",
+				"VALUE_ID": "",
+				"PARENT_VALUE_ID": ""
+			},
+			"PARENT_CODE": ""
+		},
+		"IS_BR_SIGNATORY_TYPE": {
+			"CODE": "",
+			"VALUE": "",
+			"OBJECT": {
+				"CODE": "",
+				"VALUE": "",
+				"VALUE_ID": "",
+				"PARENT_VALUE_ID": ""
+			},
+			"PARENT_CODE": ""
+		},
+		"IS_CS": {
+			"CODE": "",
+			"VALUE": "",
+			"OBJECT": {
+				"CODE": "",
+				"VALUE": "",
+				"VALUE_ID": "",
+				"PARENT_VALUE_ID": ""
+			},
+			"PARENT_CODE": ""
+		},
+		"IS_DIRECTOR_NON_OPR": ""
+	},
+	"ACCOUNT": {
+		"CRN": ""
+	},
+	"COMPANY_DETAILS": {
+		"NAME": "",
+		"DIN": "",
+		"DESIGNATION": "",
+		"DIN_STATUS": "",
+		"STAKEHOLDING": "",
+		"APPT_DT": "",
+		"CURRENT_DESIGNATION_APPT_DT": "",
+		"CESSATION_DT": "",
+		"DPIN": "",
+		"REG_NO": "",
+		"DOI": "",
+		"BUSINESS_CONSTITUTION": {
+			"CODE": "",
+			"VALUE": "",
+			"OBJECT": {
+				"CODE": "",
+				"VALUE": "",
+				"VALUE_ID": "",
+				"PARENT_VALUE_ID": ""
+			},
+			"PARENT_CODE": ""
+		}
+	},
+	"PAN": {
+		"PAN_NO": "",
+		"PAN_OCR_NO": "",
+		"PAN_OCR_NAME": "",
+		"TITLE": "",
+		"FIRST_NAME": "",
+		"MIDDLE_NAME": "",
+		"LAST_NAME": "",
+		"STATUS": "",
+		"PAN_SEED_STATUS": "",
+		"PAN_DISP_NAME": "",
+		"PAN_FULL_NAME": "",
+		"DOB": "",
+		"FATHER_NAME": "",
+		"NAME_MATCH_PAN_AND_PAN_NSDL": "",
+		"API_DT": "",
+		"OCR_DT": "",
+		"IMAGES": [
+
+		],
+		"COUNT": 0
+	},
+	"NCIF": {
+		"RES_CODE": "",
+		"RES_MSG": "",
+		"RETURN_VAL": "",
+		"REF_NO": ""
+	},
+	"AADHAAR": {
+		"VERIFIED_DT": "",
+		"FIRST_NAME": "",
+		"MIDDLE_NAME": "",
+		"LAST_NAME": "",
+		"SHORT_NAME": "",
+		"FULL_NAME": "",
+		"LINKED_PHONE": "",
+		"GENDER": "",
+		"DOB": "",
+		"AGE": "",
+		"FATHER_NAME": "",
+		"ADDR": {
+			"ADDR_LINE_1": "",
+			"ADDR_LINE_2": "",
+			"ADDR_LINE_3": "",
+			"DISP_CITY": "",
+			"DISP_STATE": "",
+			"CITY": {
+				"CODE": "",
+				"VALUE": "",
+				"OBJECT": {
+					"CODE": "",
+					"VALUE": "",
+					"VALUE_ID": "",
+					"PARENT_VALUE_ID": ""
+				},
+				"PARENT_CODE": ""
+			},
+			"STATE": {
+				"CODE": "",
+				"VALUE": "",
+				"OBJECT": {
+					"CODE": "",
+					"VALUE": "",
+					"VALUE_ID": "",
+					"PARENT_VALUE_ID": ""
+				},
+				"PARENT_CODE": ""
+			},
+			"PINCODE": "",
+			"LANDMARK": "",
+			"FULL_ADDR": "",
+			"CARE_OF": ""
+		},
+		"PLACE_OF_BIRTH": "",
+		"UID_TOKEN": "",
+		"REF_ID": "",
+		"TYPE": "",
+		"PHOTO_ID": [
+
+		],
+		"PHOTO_ID_COUNT": 0,
+		"PDF_ID": [
+
+		],
+		"PDF_ID_COUNT": 0,
+		"IS_RESIDING": {
+			"CODE": "",
+			"VALUE": "",
+			"OBJECT": {
+				"CODE": "",
+				"VALUE": "",
+				"VALUE_ID": "",
+				"PARENT_VALUE_ID": ""
+			},
+			"PARENT_CODE": ""
+		},
+		"CONSENT": {
+			"CONSENT_ID": "",
+			"VALUE": {
+				"CODE": "",
+				"VALUE": "",
+				"OBJECT": {
+					"CODE": "",
+					"VALUE": "",
+					"VALUE_ID": "",
+					"PARENT_VALUE_ID": ""
+				},
+				"PARENT_CODE": ""
+			},
+			"RECORD_ID": ""
+		}
+	},
+	"ID_PROOF": {
+		"NAME_MATCH_ID_AND_ADDR_PROOF": "",
+		"NAME_MATCH_PAN_AND_ID_PROOF": "",
+		"ID_PROOF_SAME_AS_ADDR_PROOF": {
+			"CODE": "",
+			"VALUE": "",
+			"OBJECT": {
+				"CODE": "",
+				"VALUE": "",
+				"VALUE_ID": "",
+				"PARENT_VALUE_ID": ""
+			},
+			"PARENT_CODE": ""
+		},
+		"SOURCE": {
+			"CODE": "",
+			"VALUE": "",
+			"OBJECT": {
+				"CODE": "",
+				"VALUE": "",
+				"VALUE_ID": "",
+				"PARENT_VALUE_ID": ""
+			},
+			"PARENT_CODE": ""
+		}
+	},
+	"VKYC": {
+
+	},
+	"DL": {
+		"DOC_NO": "",
+		"TITLE": "",
+		"FIRST_NAME": "",
+		"MIDDLE_NAME": "",
+		"LAST_NAME": "",
+		"FULL_NAME": "",
+		"GENDER": {
+			"CODE": "",
+			"VALUE": "",
+			"OBJECT": {
+				"CODE": "",
+				"VALUE": "",
+				"VALUE_ID": "",
+				"PARENT_VALUE_ID": ""
+			},
+			"PARENT_CODE": ""
+		},
+		"DOB": "",
+		"ISSUE_DT": "",
+		"EXP_DT": "",
+		"ADDR": {
+			"ADDR_SOURCE": "",
+			"ADDR_LINE_1": "",
+			"ADDR_LINE_2": "",
+			"ADDR_LINE_3": "",
+			"LANDMARK": "",
+			"DISP_CITY": "",
+			"DISP_STATE": "",
+			"CITY": {
+				"CODE": "",
+				"VALUE": "",
+				"OBJECT": {
+					"CODE": "",
+					"VALUE": "",
+					"VALUE_ID": "",
+					"PARENT_VALUE_ID": ""
+				},
+				"PARENT_CODE": ""
+			},
+			"STATE": {
+				"CODE": "",
+				"VALUE": "",
+				"OBJECT": {
+					"CODE": "",
+					"VALUE": "",
+					"VALUE_ID": "",
+					"PARENT_VALUE_ID": ""
+				},
+				"PARENT_CODE": ""
+			},
+			"PINCODE": "",
+			"FULL_ADDR": "",
+			"CARE_OF": ""
+		},
+		"IMAGES": [
+
+		],
+		"COUNT": 0
+	},
+	"PASSPORT": {
+		"DOC_NO": "",
+		"TITLE": "",
+		"FIRST_NAME": "",
+		"MIDDLE_NAME": "",
+		"LAST_NAME": "",
+		"FULL_NAME": "",
+		"GENDER": "",
+		"DOB": "",
+		"BIRTH_PLACE": "",
+		"ISSUE_PLACE": "",
+		"ISSUE_DT": "",
+		"EXP_DT": "",
+		"ADDR": {
+			"ADDR_SOURCE": "",
+			"ADDR_LINE_1": "",
+			"ADDR_LINE_2": "",
+			"ADDR_LINE_3": "",
+			"LANDMARK": "",
+			"DISP_CITY": "",
+			"DISP_STATE": "",
+			"CITY": {
+				"CODE": "",
+				"VALUE": "",
+				"OBJECT": {
+					"CODE": "",
+					"VALUE": "",
+					"VALUE_ID": "",
+					"PARENT_VALUE_ID": ""
+				},
+				"PARENT_CODE": ""
+			},
+			"STATE": {
+				"CODE": "",
+				"VALUE": "",
+				"OBJECT": {
+					"CODE": "",
+					"VALUE": "",
+					"VALUE_ID": "",
+					"PARENT_VALUE_ID": ""
+				},
+				"PARENT_CODE": ""
+			},
+			"PINCODE": "",
+			"FULL_ADDR": "",
+			"CARE_OF": ""
+		},
+		"IMAGES": [
+
+		],
+		"COUNT": 0
+	},
+	"VOTER_CARD": {
+		"DOC_NO": "",
+		"TITLE": "",
+		"FIRST_NAME": "",
+		"MIDDLE_NAME": "",
+		"LAST_NAME": "",
+		"FULL_NAME": "",
+		"GENDER": {
+			"CODE": "",
+			"VALUE": ""
+		},
+		"DOB": "",
+		"ISSUE_DT": "",
+		"ADDR": {
+			"ADDR_SOURCE": "",
+			"ADDR_LINE_1": "",
+			"ADDR_LINE_2": "",
+			"ADDR_LINE_3": "",
+			"LANDMARK": "",
+			"DISP_CITY": "",
+			"DISP_STATE": "",
+			"CITY": {
+				"CODE": "",
+				"VALUE": ""
+			},
+			"STATE": {
+				"CODE": "",
+				"VALUE": ""
+			},
+			"PINCODE": "",
+			"FULL_ADDR": "",
+			"CARE_OF": ""
+		},
+		"IMAGES": [
+
+		],
+		"COUNT": 0
+	},
+	"FORM_16": {
+
+	},
+	"PERM_ADDR": {
+		"ADDR_SOURCE": {
+			"CODE": "",
+			"VALUE": "",
+			"OBJECT": {
+				"CODE": "",
+				"VALUE": "",
+				"VALUE_ID": "",
+				"PARENT_VALUE_ID": ""
+			},
+			"PARENT_CODE": ""
+		},
+		"DOC_NO": "",
+		"ADDR_LINE_1": "",
+		"ADDR_LINE_2": "",
+		"ADDR_LINE_3": "",
+		"LANDMARK": "",
+		"DISP_CITY": "",
+		"DISP_STATE": "",
+		"CITY": {
+			"CODE": "",
+			"VALUE": "",
+			"OBJECT": {
+				"CODE": "",
+				"VALUE": "",
+				"VALUE_ID": "",
+				"PARENT_VALUE_ID": ""
+			},
+			"PARENT_CODE": ""
+		},
+		"STATE": {
+			"CODE": "",
+			"VALUE": "",
+			"OBJECT": {
+				"CODE": "",
+				"VALUE": "",
+				"VALUE_ID": "",
+				"PARENT_VALUE_ID": ""
+			},
+			"PARENT_CODE": ""
+		},
+		"PINCODE": "",
+		"FULL_ADDR": "",
+		"CARE_OF": ""
+	},
+	"COMM_ADDR": {
+		"ADDR_SOURCE": {
+			"CODE": "",
+			"VALUE": "",
+			"OBJECT": {
+				"CODE": "",
+				"VALUE": "",
+				"VALUE_ID": "",
+				"PARENT_VALUE_ID": ""
+			},
+			"PARENT_CODE": ""
+		},
+		"ADDR_LINE_1": "",
+		"ADDR_LINE_2": "",
+		"ADDR_LINE_3": "",
+		"LANDMARK": "",
+		"DISP_CITY": "",
+		"DISP_STATE": "",
+		"CITY": {
+			"CODE": "",
+			"VALUE": "",
+			"OBJECT": {
+				"CODE": "",
+				"VALUE": "",
+				"VALUE_ID": "",
+				"PARENT_VALUE_ID": ""
+			},
+			"PARENT_CODE": ""
+		},
+		"STATE": {
+			"CODE": "",
+			"VALUE": "",
+			"OBJECT": {
+				"CODE": "",
+				"VALUE": "",
+				"VALUE_ID": "",
+				"PARENT_VALUE_ID": ""
+			},
+			"PARENT_CODE": ""
+		},
+		"PINCODE": "",
+		"FULL_ADDR": "",
+		"CARE_OF": ""
+	},
+	"OFFICE_ADDR": {
+		"ADDR_SOURCE": {
+			"CODE": "",
+			"VALUE": "",
+			"OBJECT": {
+				"CODE": "",
+				"VALUE": "",
+				"VALUE_ID": "",
+				"PARENT_VALUE_ID": ""
+			},
+			"PARENT_CODE": ""
+		},
+		"ADDR_LINE_1": "",
+		"ADDR_LINE_2": "",
+		"ADDR_LINE_3": "",
+		"LANDMARK": "",
+		"DISP_CITY": "",
+		"DISP_STATE": "",
+		"CITY": {
+			"CODE": "",
+			"VALUE": "",
+			"OBJECT": {
+				"CODE": "",
+				"VALUE": "",
+				"VALUE_ID": "",
+				"PARENT_VALUE_ID": ""
+			},
+			"PARENT_CODE": ""
+		},
+		"STATE": {
+			"CODE": "",
+			"VALUE": "",
+			"OBJECT": {
+				"CODE": "",
+				"VALUE": "",
+				"VALUE_ID": "",
+				"PARENT_VALUE_ID": ""
+			},
+			"PARENT_CODE": ""
+		},
+		"PINCODE": "",
+		"FULL_ADDR": "",
+		"CARE_OF": ""
+	},
+	"INCOME": {
+		"ANNUAL_INCOME": {
+			"CODE": "",
+			"VALUE": "",
+			"OBJECT": {
+				"CODE": "",
+				"VALUE": "",
+				"VALUE_ID": "",
+				"PARENT_VALUE_ID": ""
+			},
+			"PARENT_CODE": ""
+		},
+		"ITR": [{
+
+		}],
+		"BANK_STMT": [{
+
+		}],
+		"GST": [{
+
+		}],
+		"FINANCIALS": [{
+
+		}],
+		"FORM_16A": [{
+
+		}],
+		"PAYSLIP": [{
+
+		}],
+		"PF_DETAILS": [{
+
+		}]
+	},
+	"DEDUPE": [
+
+	],
+	"AML": {
+
+	},
+	"KYC": {
+		"CODE": "",
+		"VALUE": "",
+		"OBJECT": {
+			"VALUE": "",
+			"SORT_SEQ": "",
+			"VALUE_ID": "",
+			"PARENT_VALUE_ID": "",
+			"FILTER_BUSINESS_ID": ""
+		},
+		"PARENT_CODE": ""
+	},
+	"BUREAU": {
+
+	},
+	"EDUCATION": [{
+
+	}],
+	"HIGHEST_QUALIFICATION": {
+
+	},
+	"CHANNEL_ACCESS": {
+		"MOB_BANKING": {
+			"ACCESS_TYPE": {
+				"CODE": "",
+				"VALUE": "",
+				"OBJECT": {
+					"CODE": "",
+					"VALUE": "",
+					"VALUE_ID": "",
+					"PARENT_VALUE_ID": ""
+				},
+				"PARENT_CODE": ""
+			},
+			"DOM_LIMIT": "",
+			"SH_ID": "<SH_ID>",
+			"INT_TXN": "<1 | 0>",
+			"INT_LIMIT": "",
+			"TYPE": {
+				"CODE": "",
+				"VALUE": "",
+				"OBJECT": {
+					"CODE": "",
+					"VALUE": "",
+					"VALUE_ID": "",
+					"PARENT_VALUE_ID": ""
+				},
+				"PARENT_CODE": ""
+			},
+			"OTHER_TYPE": ""
+		},
+		"NET_BANKING": {
+			"TYPE": {
+				"CODE": "",
+				"VALUE": "",
+				"OBJECT": {
+					"CODE": "",
+					"VALUE": "",
+					"VALUE_ID": "",
+					"PARENT_VALUE_ID": ""
+				},
+				"PARENT_CODE": ""
+			},
+			"ACCESS_TYPE": {
+				"CODE": "",
+				"VALUE": "",
+				"OBJECT": {
+					"CODE": "",
+					"VALUE": "",
+					"VALUE_ID": "",
+					"PARENT_VALUE_ID": ""
+				},
+				"PARENT_CODE": ""
+			},
+			"DOM_LIMIT": "",
+			"INT_TXN": "<1 | 0>",
+			"INT_LIMIT": ""
+		},
+		"DEBIT_CARD": {
+			"ACCESS_TYPE": {
+				"CODE": "",
+				"VALUE": "",
+				"OBJECT": {
+					"CODE": "",
+					"VALUE": "",
+					"VALUE_ID": "",
+					"PARENT_VALUE_ID": ""
+				},
+				"PARENT_CODE": ""
+			},
+			"DOM_LIMIT": "",
+			"INT_TXN": "<1 | 0>",
+			"INT_LIMIT": "",
+			"ONLINE_TXN": "<1 | 0>",
+			"ONLINE_LIMIT": "",
+			"TYPE": {
+				"CODE": "",
+				"VALUE": "",
+				"OBJECT": {
+					"CODE": "",
+					"VALUE": "",
+					"VALUE_ID": "",
+					"PARENT_VALUE_ID": ""
+				},
+				"PARENT_CODE": ""
+			}
+		},
+		"CHQ": {
+			"ACCESS_TYPE": {
+				"CODE": "",
+				"VALUE": "",
+				"OBJECT": {
+					"CODE": "",
+					"VALUE": "",
+					"VALUE_ID": "",
+					"PARENT_VALUE_ID": ""
+				},
+				"PARENT_CODE": ""
+			},
+			"LIMIT": "",
+			"SH_ID": "<SH_ID>"
+		},
+		"PHONE_BANKING": {
+			"ACCESS_TYPE": {
+				"CODE": "",
+				"VALUE": "",
+				"OBJECT": {
+					"CODE": "",
+					"VALUE": "",
+					"VALUE_ID": "",
+					"PARENT_VALUE_ID": ""
+				},
+				"PARENT_CODE": ""
+			},
+			"DOM_LIMIT": "",
+			"SH_ID": "<SH_ID>",
+			"INT_TXN": "<1 | 0>",
+			"INT_LIMIT": "",
+			"TYPE": {
+				"CODE": "",
+				"VALUE": "",
+				"OBJECT": {
+					"CODE": "",
+					"VALUE": "",
+					"VALUE_ID": "",
+					"PARENT_VALUE_ID": ""
+				},
+				"PARENT_CODE": ""
+			},
+			"OTHER_TYPE": ""
+		},
+		"ALERT": {
+			"TYPE": {
+				"CODE": "",
+				"VALUE": "",
+				"OBJECT": {
+					"CODE": "",
+					"VALUE": "",
+					"VALUE_ID": "",
+					"PARENT_VALUE_ID": ""
+				},
+				"PARENT_CODE": ""
+			},
+			"SMS_ALERT": {
+				"CODE": "",
+				"VALUE": "",
+				"OBJECT": {
+					"CODE": "",
+					"VALUE": "",
+					"VALUE_ID": "",
+					"PARENT_VALUE_ID": ""
+				},
+				"PARENT_CODE": ""
+			},
+			"EMAIL_ALERT": {
+				"CODE": "",
+				"VALUE": "",
+				"OBJECT": {
+					"CODE": "",
+					"VALUE": "",
+					"VALUE_ID": "",
+					"PARENT_VALUE_ID": ""
+				},
+				"PARENT_CODE": ""
+			}
+		},
+		"UPI": {
+			"ACCESS_TYPE": "<>",
+			"DOM_LIMIT": "",
+			"SH_ID": "<SH_ID>",
+			"INT_TXN": "<1 | 0>",
+			"INT_LIMIT": ""
+		}
+	},
+	"PRI_OCCUPATION": {
+		"TYPE": "",
+		"SUB_TYPE": ""
+	},
+	"SEC_OCCUPATION": {
+		"TYPE": "",
+		"SUB_TYPE": ""
+	},
+	"EMPLOYMENT_DETAILS": [{
+
+	}],
+	"CURRENT_EMPLOYMENT": {
+
+	},
+	"DECLARATIONS": {
+		"AADHAAR_BIOMETRIC": {
+			"CONSENT_ID": "",
+			"VALUE": {
+				"CODE": "",
+				"VALUE": "",
+				"OBJECT": {
+					"CODE": "",
+					"VALUE": "",
+					"VALUE_ID": "",
+					"PARENT_VALUE_ID": ""
+				},
+				"PARENT_CODE": ""
+			},
+			"RECORD_ID": ""
+		},
+		"AADHAAR": {
+			"CONSENT_ID": "",
+			"VALUE": {
+				"CODE": "",
+				"VALUE": "",
+				"OBJECT": {
+					"CODE": "",
+					"VALUE": "",
+					"VALUE_ID": "",
+					"PARENT_VALUE_ID": ""
+				},
+				"PARENT_CODE": ""
+			},
+			"RECORD_ID": ""
+		},
+		"VKYC": {
+			"CONSENT_ID": "",
+			"VALUE": {
+				"CODE": "",
+				"VALUE": "",
+				"OBJECT": {
+					"CODE": "",
+					"VALUE": "",
+					"VALUE_ID": "",
+					"PARENT_VALUE_ID": ""
+				},
+				"PARENT_CODE": ""
+			},
+			"RECORD_ID": ""
+		}
+	},
+	"DOCUMENTS": {
+		"CUSTOMER_PHOTO": {
+			"IMAGES": [
+
+			],
+			"COUNT": 0
+		},
+		"FOREIGN_BO": {
+			"IMAGES": [
+
+			],
+			"COUNT": 0
+		},
+		"SIGNATURE": {
+			"IMAGES": [
+
+			],
+			"COUNT": 0
+		}
+	},
+	"WORK_VARS": {
+
+	}
+}

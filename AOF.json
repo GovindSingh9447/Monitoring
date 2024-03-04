@@ -1,0 +1,360 @@
+{
+    "AOF_ID": "",
+    "CHANNEL": "<ASSISTED | DIY>",
+    "BRANCH_DETAILS": {
+        "BRANCH": {
+            "CODE": "",
+            "VALUE": "",
+            "OBJECT": {
+                "CODE": "",
+                "VALUE": "",
+                "VALUE_ID": "",
+                "PARENT_VALUE_ID": ""
+            },
+            "PARENT_CODE": ""
+        }
+    },
+    "OPPORTUNITY": {
+        "PRODUCT": {
+            "GRP_CODE": {
+                "CODE": "",
+                "VALUE": "",
+                "OBJECT": {
+                    "CODE": "",
+                    "VALUE": "",
+                    "VALUE_ID": "",
+                    "PARENT_VALUE_ID": ""
+                },
+                "PARENT_CODE": ""
+            },
+            "PRD_CODE": {
+                "CODE": "",
+                "VALUE": "",
+                "OBJECT": {
+                    "CODE": "",
+                    "VALUE": "",
+                    "VALUE_ID": "",
+                    "PARENT_VALUE_ID": ""
+                },
+                "PARENT_CODE": ""
+            },
+            "VARIANT_CODE": {
+                "CODE": "",
+                "VALUE": "",
+                "OBJECT": {
+                    "CODE": "",
+                    "VALUE": "",
+                    "VALUE_ID": "",
+                    "PARENT_VALUE_ID": ""
+                },
+                "PARENT_CODE": ""
+            },
+            "SUB_VARIANT_CODE": ""
+        },
+        "EXP_TKT_SIZE": "",
+        "EXP_CLOSURE_DATE": "",
+        "CATEGORY": "HOT | MODERATE | COLD"
+    },
+    "BR_SIGNATORY_TYPE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+            "CODE": "",
+            "VALUE": "",
+            "VALUE_ID": "",
+            "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+    },
+    "ACTIV_MONEY": {
+        "IS_OPTED": {
+            "CODE": "",
+            "VALUE": "",
+            "OBJECT": {
+                "CODE": "",
+                "VALUE": "",
+                "VALUE_ID": "",
+                "PARENT_VALUE_ID": ""
+            },
+            "PARENT_CODE": ""
+        },
+        "SWEEP_IN": "",
+        "SWEEP_OUT": ""
+    },
+    "PRODUCT": {
+        "GRP_CODE": {
+            "CODE": "",
+            "VALUE": "",
+            "OBJECT": {
+                "CODE": "",
+                "VALUE": "",
+                "VALUE_ID": "",
+                "PARENT_VALUE_ID": ""
+            },
+            "PARENT_CODE": ""
+        },
+        "PRD_CODE": {
+            "CODE": "",
+            "VALUE": "",
+            "OBJECT": {
+                "CODE": "",
+                "VALUE": "",
+                "VALUE_ID": "",
+                "PARENT_VALUE_ID": ""
+            },
+            "PARENT_CODE": ""
+        },
+        "VARIANT_CODE": {
+            "CODE": "",
+            "VALUE": "",
+            "OBJECT": {
+                "CODE": "",
+                "VALUE": "",
+                "VALUE_ID": "",
+                "PARENT_VALUE_ID": ""
+            },
+            "PARENT_CODE": ""
+        },
+        "SUB_VARIANT_CODE": "",
+        "PRIVY_PRG_CLASSIFICATION": "",
+        "PRG_SUB_CLASSIFICATION": {
+            "CODE": "",
+            "VALUE": "",
+            "OBJECT": {
+                "CODE": "",
+                "VALUE": "",
+                "VALUE_ID": "",
+                "PARENT_VALUE_ID": ""
+            },
+            "PARENT_CODE": ""
+        },
+        "PARENT_ID": "",
+        "PARENT_ID_CLASSIFICATION": "",
+        "PARENT_ID_SUB_CLASSIFICATION": "",
+        "FINAL_CLASSIFICATION": {
+            "CODE": "",
+            "VALUE": "",
+            "OBJECT": {
+                "CODE": "",
+                "VALUE": "",
+                "VALUE_ID": "",
+                "PARENT_VALUE_ID": ""
+            },
+            "PARENT_CODE": ""
+        }
+    },
+    "PRI_HOLDER": "<SH_ID | BE_ID>",
+    "PRI_HOLDER_TYPE": "<SH | BE>",
+    "SEC_HOLDERS": [
+        {
+            "ROLE": "<GUARDIAN | JOINT_HOLDER>",
+            "SH_ID": "<SH_ID>",
+            "IS_UBO": "<1 | 0>",
+            "IS_DIRECTOR": "<1 | 0>",
+            "IS_SHAREHOLDER": "<1 | 0>",
+            "IS_BR_SIGNATORY": "<1 | 0>",
+            "IS_AUS": "<1 | 0>",
+            "IS_CP": "<1 | 0>",
+            "IS_DP": "<1 | 0>",
+            "SHAREHOLDING": "<0-100%>"
+        }
+    ],
+    "ACCOUNT": {
+        "CRN": "",
+        "ACC_NO": "",
+        "TYPE": {
+            "CODE": "",
+            "OBJECT": {
+                "FILTER_BUSINESS_ID": "",
+                "PARENT_VALUE_ID": "",
+                "SORT_SEQ": 0,
+                "VALUE": "",
+                "VALUE_ID": ""
+            },
+            "PARENT_CODE": "",
+            "VALUE": ""
+        }
+    },
+    "KIT_DETAILS": {
+        "KIT_TYPE": {
+            "CODE": "",
+            "VALUE": "",
+            "OBJECT": {
+                "CODE": "",
+                "VALUE": "",
+                "VALUE_ID": "",
+                "PARENT_VALUE_ID": ""
+            },
+            "PARENT_CODE": ""
+        }
+    },
+    "IP_FUNDING": {
+        "MODE": "",
+        "AMOUNT": "",
+        "CHQ_AMT": "",
+        "REFERNCE_NUM": "",
+        "DATE": "",
+        "BANK_NAME": "",
+        "ACCOUNT_TYPE": {
+            "CODE": "",
+            "VALUE": "",
+            "OBJECT": {
+                "CODE": "",
+                "VALUE": "",
+                "VALUE_ID": "",
+                "PARENT_VALUE_ID": ""
+            },
+            "PARENT_CODE": ""
+        },
+        "ACCOUNT_HOLDER_NAME": "",
+        "DRAWN_ON": "",
+        "BRANCH": "",
+        "IFSC_CODE": "",
+        "ACCOUNT_NUMBER": "",
+        "PAYMENT": {
+            "IMAGES": [],
+            "COUNT": 0
+        },
+        "APPROVAL": {
+            "IMAGES": [],
+            "COUNT": 0
+        },
+        "VPA": "",
+        "ORDER_ID": "",
+        "STATUS": "",
+        "REFUND_STATUS": "",
+        "REFUND_DATE": ""
+    },
+    "NOMINEE": {
+        "NOMINEE_ID": "<SH_ID>",
+        "IS_MINOR": "<1 | 0>",
+        "GUARDIAN_ID": "<SH_ID>"
+    },
+    "OPERATOR": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+            "CODE": "",
+            "VALUE": "",
+            "VALUE_ID": "",
+            "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+    },
+    "DECLARATIONS": {
+        "TC": {
+            "CONSENT_ID": "",
+            "VALUE": {
+                "CODE": "",
+                "VALUE": "",
+                "OBJECT": {
+                    "CODE": "",
+                    "VALUE": "",
+                    "VALUE_ID": "",
+                    "PARENT_VALUE_ID": ""
+                },
+                "PARENT_CODE": ""
+            },
+            "RECORD_ID": ""
+        },
+        "RM_CONSENT": {
+            "CONSENT_ID": "",
+            "VALUE": {
+                "CODE": "",
+                "VALUE": "",
+                "OBJECT": {
+                    "CODE": "",
+                    "VALUE": "",
+                    "VALUE_ID": "",
+                    "PARENT_VALUE_ID": ""
+                },
+                "PARENT_CODE": ""
+            },
+            "RECORD_ID": ""
+        },
+        "RM_CPV_DECLARATION": {
+            "CONSENT_ID": "",
+            "VALUE": {
+                "CODE": "",
+                "VALUE": "",
+                "OBJECT": {
+                    "CODE": "",
+                    "VALUE": "",
+                    "VALUE_ID": "",
+                    "PARENT_VALUE_ID": ""
+                },
+                "PARENT_CODE": ""
+            },
+            "RECORD_ID": ""
+        }
+    },
+    "DOCUMENTS": {
+        "CRILIC": {
+            "IMAGES": [],
+            "COUNT": 0
+        },
+        "BR_DOC": {
+            "IMAGES": [],
+            "COUNT": 0
+        },
+        "LLP_RESOLUTION": {
+            "IMAGES": [],
+            "COUNT": 0
+        },
+        "CUSTOMER_DECLARATION": {
+            "IMAGES": [],
+            "COUNT": 0
+        },
+        "GROUPING_CONSENT": {
+            "IMAGES": [],
+            "COUNT": 0
+        },
+        "TC": {
+            "IMAGES": [],
+            "COUNT": 0
+        },
+        "SIGN_IN_PROOF_NON_OPR_DIR": {
+            "IMAGES": [],
+            "COUNT": 0
+        },
+        "PRGRAM_VARIANT": {
+            "IMAGES": [],
+            "COUNT": 0
+        },
+        "SANCTION_LETTER": {
+            "IMAGES": [],
+            "COUNT": 0
+        },
+        "SHAREHOLDING_PATTERN": {
+            "IMAGES": [],
+            "COUNT": 0
+        },
+        "OTHER_DOCS": {
+            "IMAGES": [],
+            "COUNT": 0
+        },
+        "OTHER_DOCS_BY_DVU": {
+            "IMAGES": [],
+            "COUNT": 0
+        },
+        "OTHER_DOCS_BY_RISKUNIT": {
+            "IMAGES": [],
+            "COUNT": 0
+        },
+        "OTHER_DOCS_MIDOFFICE": {
+            "IMAGES": [],
+            "COUNT": 0
+        },
+        "OTHER_DOCS_BY_MIDOFFICE_CORRECTER": {
+            "IMAGES": [],
+            "COUNT": 0
+        }
+    },
+    "WORK_VARS": {
+        "<API_NAME>": {
+            "REQUEST_ID": "",
+            "STATUS": ""
+        },
+        "<Custom any Key>": "<Custom any Value>"
+    }
+}

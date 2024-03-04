@@ -1,0 +1,107 @@
+{
+    "LEAD_ID": "",
+    "LG_CODE": "",
+    "LC_CODE": "",
+    "PRI_CONTACT": {
+      "NAME": "",
+      "PRI_MOBILE": "",
+      "SEC_MOBILE": "",
+      "EMAIL": ""
+    },
+    "CHANNEL": "<ASSISTED | DIY>",
+    "BANK_USE_INFO": {
+      "SOURCE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "PROMO": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "PROMO_DOC": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "COCO": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "INITIATOR_CODE": "",
+      "LOB": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "RM_CODE": "",
+      "RISK_PROFILE": {
+        "CODE": "",
+        "VALUE": "",
+        "OBJECT": {
+          "CODE": "",
+          "VALUE": "",
+          "VALUE_ID": "",
+          "PARENT_VALUE_ID": ""
+        },
+        "PARENT_CODE": ""
+      },
+      "DOCUMENTS": {
+        "PROMO": {
+          "IMAGES": [],
+          "COUNT": 0
+        }
+      },
+      "DECLARATIONS": {
+        "RM_SE_DECLARATION": {
+          "CONSENT_ID": "",
+          "VALUE": {
+            "CODE": "",
+            "VALUE": "",
+            "OBJECT": {
+              "CODE": "",
+              "VALUE": "",
+              "VALUE_ID": "",
+              "PARENT_VALUE_ID": ""
+            },
+            "PARENT_CODE": ""
+          },
+          "RECORD_ID": ""
+        }
+      }
+    },
+    "WORK_VARS": {
+      "<Custom any Key>": "<Custom any Value>"
+    }

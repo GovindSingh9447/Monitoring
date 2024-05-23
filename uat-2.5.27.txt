@@ -1,0 +1,152 @@
+tpg-execution-sync-agent:release-2.5.27.0-1.0.9-cug
+
+    rest.template.connection.timeout=10000
+
+    rest.template.read.timeout=10000
+
+    spring.main.allow-circular-references=true
+
+
+tpg-api-gateway:release-2.5.27.6-1.0.8-venus
+
+    spring.data.cache.type=redis
+    spring.main.allow-circular-references=true
+
+    deviceTimeDiffAllowedInMinutes=1440
+    retainTxnIdInRedisForMinutes=1440
+    system.generated.key=3SGVMtXNM1f7OuBz91SehQ==
+    systemKey=3SGVMtXNM1f7OuBz91SehQ==
+    session.expiry.time=24
+    analytics.url =
+    isAnalyticsRequired =Y
+    raise.event.topic= EVENT
+
+
+tpg-vahana-dms:release-2.5.27.6-1.0.2-cug
+
+spring.main.allow-circular-references=true
+
+
+
+tpg-vflow-execution:release-2.4.0.0-1.0.3-cug
+
+
+
+tpg-vmonitoring-exe:release-2.5.27.6-1.0.1-venus
+
+#######################################################
+
+    elasticsearch.host= elasticsearch-coordinating-only-hl
+
+    elasticsearch.username=
+
+    elasticsearch.password=
+
+    topic= LOGS
+
+    limit= 200
+
+    enableAuthentication= false
+
+    socketTimeout= 30000
+
+    logs.excel.path= /usr/deployment
+
+    logs.max.limit= 100000
+
+    logs.onetime.limit= 5000
+
+    thread.count= 10
+
+    management.health.elasticsearch.enabled= false
+
+
+    audit.headers[0].key=Service Name
+
+    audit.headers[0].value=name
+
+    audit.headers[1].key=Request Time
+
+    audit.headers[1].value=requestTimestamp
+
+    audit.headers[2].key=User
+
+    audit.headers[2].value=loginId
+
+    audit.headers[3].key=Execution Time (in ms)
+
+    audit.headers[3].value=timeTaken
+
+    audit.headers[4].key=Status
+
+    audit.headers[4].value=status
+
+
+    error.headers[0].key=System Name
+
+    error.headers[0].value=systemName
+
+    error.headers[1].key=Api Name
+
+    error.headers[1].value=name
+
+    error.headers[2].key=Request Time
+
+    error.headers[2].value=time
+
+    error.headers[3].key=User
+
+    error.headers[3].value=loginId
+
+    error.headers[4].key=Exception Name
+
+    error.headers[4].value=exceptionName
+
+    error.headers[5].key=Error Code
+
+    error.headers[5].value=errorCode
+
+    spring.main.allow-circular-references=true
+
+    logging.level.org.springframework.data.elasticsearch.client.WIRE=trace
+
+    logging.level.tracer=TRACE
+
+
+tpg-vscheduler-exe:release-2.5.27.0-1.0.9-cug
+
+ spring.main.allow-circular-references=true
+
+
+
+
+
+tpg-event-manager:release-2.5.27.0-1.0.8-cug
+
+ spring.main.allow-circular-references=true
+
+
+ 
+
+tpg-dbes-exe:release-2.5.27.6-1.0.1-cug
+
+   spring.main.allow-circular-references=true
+
+
+
+tpg-esb:release-2.5.27.6-1.0.3-cug
+
+
+      monitoring.topic = MONITORING
+      raise.event.topic = EVENT
+
+      ##Consul Properties
+      spring.cloud.consul.enabled=false
+      spring.cloud.bus.enabled=false
+      defaultMaxRetryAttempts = 2
+
+      session.expiry.time=24
+      print.logs.on.console = Y
+      file-path=/usr/imgDir/
+      spring.main.allow-circular-references=true
+   

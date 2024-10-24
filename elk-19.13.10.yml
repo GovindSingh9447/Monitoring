@@ -32,7 +32,7 @@ coordinating:
   extraVolumeMounts: []
   extraVolumes: []
   fullnameOverride: ""
-  heapSize: 128m
+  heapSize: 512m
   hostAliases: []
   initContainers: []
   lifecycleHooks: {}
@@ -49,7 +49,7 @@ coordinating:
     type: ""
     values: []
   nodeSelector:
-    vrt-elk: "true"
+    uat-elk: "true"
   pdb:
     create: false
     maxUnavailable: ""
@@ -74,8 +74,8 @@ coordinating:
   resources:
     limits: {}
     requests:
-      cpu: 25m
-      memory: 256Mi
+      cpu: 500m
+      memory: 1024Mi
   schedulerName: ""
   serviceAccount:
     annotations: {}
@@ -141,7 +141,7 @@ data:
     type: ""
     values: []
   nodeSelector:
-    vrt-elk: "true"
+    uat-elk: "true"
   pdb:
     create: false
     maxUnavailable: ""
@@ -155,7 +155,7 @@ data:
     existingVolume: ""
     path: /
     selector: {}
-    size: 20Gi
+    size: 40Gi
     storageClass: ""
   podAffinityPreset: ""
   podAnnotations: {}
@@ -177,8 +177,8 @@ data:
   resources:
     limits: {}
     requests:
-      cpu: 25m
-      memory: 2048Mi
+      cpu: 500m
+      memory: 3096Mi
   schedulerName: ""
   serviceAccount:
     annotations: {}
@@ -264,7 +264,7 @@ ingest:
   extraVolumeMounts: []
   extraVolumes: []
   fullnameOverride: ""
-  heapSize: 712m
+  heapSize: 1024m
   hostAliases: []
   ingress:
     annotations: {}
@@ -296,7 +296,7 @@ ingest:
     type: ""
     values: []
   nodeSelector:
-    vrt-elk: "true"
+    uat-elk: "true"
   pdb:
     create: false
     maxUnavailable: ""
@@ -321,8 +321,8 @@ ingest:
   resources:
     limits: {}
     requests:
-      cpu: 25m
-      memory: 712Mi
+      cpu: 500m
+      memory: 1500Mi
   schedulerName: ""
   service:
     annotations: {}
@@ -431,7 +431,7 @@ master:
     type: ""
     values: []
   nodeSelector:
-    vrt-elk: "true"
+    uat-elk: "true"
   pdb:
     create: false
     maxUnavailable: ""
@@ -444,7 +444,7 @@ master:
     existingClaim: ""
     existingVolume: ""
     selector: {}
-    size: 8Gi
+    size: 40Gi
     storageClass: ""
   podAffinityPreset: ""
   podAnnotations: {}
@@ -534,7 +534,7 @@ metrics:
     type: ""
     values: []
   nodeSelector:
-    vrt-elk: "true"
+    uat-elk: "true"
   podAffinityPreset: ""
   podAnnotations:
     prometheus.io/port: "9114"
